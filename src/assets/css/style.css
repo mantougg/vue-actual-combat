@@ -40,3 +40,11 @@
 .tabs-content{
   padding: 8px 0;
 }
+.directive-td-desc{
+  text-align: right;
+  padding: 10px;
+}
+.directive-td-value{
+  text-align: left;
+  padding: 10px;
+}

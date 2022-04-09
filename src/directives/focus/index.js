@@ -1,6 +1,6 @@
 import Vue from "vue";
 
-Vue.directive("focus", {
+Vue.directive("get-directive-value", {
   inserted(el) {
     el.focus();
   },

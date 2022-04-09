@@ -1,8 +1,10 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import InputNumber from "../components/input-number/index.vue";
+import InputNumber from "../views/my-page/input-number.vue";
 import Tabs from "../views/my-page/tabs.vue";
+import GetDirectiveValue from "../views/my-page/directive-value.vue";
+import Menu from "../views/my-page/menu.vue";
 
 Vue.use(VueRouter);
 
@@ -13,14 +15,31 @@ const routes = [
     component: Home,
   },
   {
-    path: "/input-number",
-    name: "InputNumber",
-    component: InputNumber,
-  },
-  {
-    path: "/tabs",
-    name: "Tabs",
-    component: Tabs,
+    path: "/menu",
+    name: "Menu",
+    component: Menu,
+    children: [
+      {
+        path: "",
+        name: "InputNumber",
+        component: InputNumber,
+      },
+      {
+        path: "tabs",
+        name: "Tabs",
+        component: Tabs,
+      },
+      {
+        path: "custom",
+        name: "GetDirectiveValue",
+        component: GetDirectiveValue,
+      },
+      {
+        path: "input-number",
+        name: "InputNumber",
+        component: InputNumber,
+      },
+    ],
   },
   {
     path: "/about",

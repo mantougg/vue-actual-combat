@@ -1,4 +1,5 @@
 module.exports = {
-    // 选项
-    publicPath: process.env.NODE_ENV === 'production' ? '/vue-actual-combat/' : '/',
+  // 选项
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/vue-actual-combat/" : "/",
 };

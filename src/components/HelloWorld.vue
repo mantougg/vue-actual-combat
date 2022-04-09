@@ -2,33 +2,27 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      <a href="https://mantougg.github.io/vue-actual-combat/#/" target="_blank" rel="noopener"
+      <a
+        href="https://mantougg.github.io/vue-actual-combat/#/"
+        target="_blank"
+        rel="noopener"
         >My Github Pages</a
       >
     </p>
     <h3>Vue Study</h3>
     <ul>
       <li>
-        <a
-          href="https://cn.vuejs.org/"
-          target="_blank"
-          rel="noopener"
+        <a href="https://cn.vuejs.org/" target="_blank" rel="noopener"
           >Vue.js</a
         >
       </li>
       <li>
-        <a
-          href="https://vuex.vuejs.org/zh/"
-          target="_blank"
-          rel="noopener"
+        <a href="https://vuex.vuejs.org/zh/" target="_blank" rel="noopener"
           >Vuex</a
         >
       </li>
       <li>
-        <a
-          href="https://router.vuejs.org/zh/"
-          target="_blank"
-          rel="noopener"
+        <a href="https://router.vuejs.org/zh/" target="_blank" rel="noopener"
           >Vue Router</a
         >
       </li>

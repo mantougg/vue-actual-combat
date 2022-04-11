@@ -4,6 +4,7 @@
       <router-link to="/menu/input-number">InputNumber</router-link>
       <router-link to="/menu/tabs">Tabs</router-link>
       <router-link to="/menu/custom">custom-directive</router-link>
+      <router-link to="/menu/render-dom">render-dom</router-link>
     </div>
     <div class="menu-value">
       <router-view />

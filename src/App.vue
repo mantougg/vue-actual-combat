@@ -26,7 +26,7 @@ body {
 
 #nav {
   padding: 30px;
-  background: aquamarine;
+  /* background: aquamarine; */
 }
 
 #nav a {

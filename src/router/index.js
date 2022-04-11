@@ -5,6 +5,7 @@ import InputNumber from "../views/my-page/input-number.vue";
 import Tabs from "../views/my-page/tabs.vue";
 import GetDirectiveValue from "../views/my-page/directive-value.vue";
 import Menu from "../views/my-page/menu.vue";
+import RenderDom from "../views/my-page/render-dom.vue";
 
 Vue.use(VueRouter);
 
@@ -28,6 +29,11 @@ const routes = [
         path: "tabs",
         name: "Tabs",
         component: Tabs,
+      },
+      {
+        path: "render-dom",
+        name: "RenderDom",
+        component: RenderDom,
       },
       {
         path: "custom",
